@@ -2,13 +2,13 @@
     "$schema":"https://raw.githubusercontent.com/silverbulleters/vanessa-runner/develop/behavior-schema.json",
     "ИмяСборки": "8310UF",
     "ВерсияПлатформы": "8.3.10",
-    "ВыводитьСообщенияВФайл": "./ServiceBases/Messages 8.3.10 UF no sync.txt",
-    "СтрокаПодключенияКБазе": "/F./ServiceBases/v83ServiceBase8310",
+    "ВыводитьСообщенияВФайл": "./build/ServiceBases/Messages 8.3.10 UF no sync.txt",
+    "СтрокаПодключенияКБазе": "/F./build/ServiceBases/v83ServiceBase8310",
     "EpfДляИнициализацияБазы": "./tools/epf/init.epf",
     "ПараметрыДляИнициализацияБазы": "./tools/epf/init.json",
     "ПутьКVanessaBehavior": "./bddRunner.epf",
     "КаталогПроекта": "$workspaceRoot",
-    "КаталогФич": "$workspaceRoot/./features",
+    "КаталогФич": "$workspaceRoot/./features/libraries",
     "КаталогиБиблиотек": [
         "$instrumentsRoot/./features/libraries"
     ],
@@ -54,6 +54,7 @@
     "ДополнительныеПараметры": {
         "КаталогФичДляVBManager": "$workspaceRoot/./features"
     },
+    "КаталогПоискаВерсииПлатформы":"C:\\Program Files (x86)\\1cv8",
     "ЗаписьВидеоКомандаНачатьЗаписьВидео": "\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" screen://  -I rc --rc-quiet --rc-host=127.0.0.1:8082 --nommx :screen-mouse-image=\"<screenmouseimage>\" :screen-fps=<fps> :screen-width=<screenwidth> :screen-height=<screenheight> :screen-top=0 :screen-left=0 :screen-caching=100 :sout=#transcode{vcodec=mp4v,vb=400,fps=<fps>,scale=1,width=<screenwidth>,height=<screenheight>,acodec=none}:duplicate{dst=std{access=file,mux=mp4,dst=<dst>}}",
     "ЗаписьВидеоФайлКурсораМышки": "./tools/VideoTools/mouse.png",
     "ЗаписьВидеоКаталогДляВременныхФайлов": "./tools/VideoTemp",
