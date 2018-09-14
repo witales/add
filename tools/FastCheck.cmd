@@ -1,2 +1,2 @@
 
-oscript .\onescript\run-behavior-check-session.os .\JSON\FastCheck.json
+oscript %~dp0\onescript\run-behavior-check-session.os %~dp0\JSON\FastCheck.json

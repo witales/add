@@ -1,2 +1,2 @@
 
-oscript ./tools/onescript/run-behavior-check-session.os ./tools/JSON/Main.json
+oscript %~dp0/onescript/run-behavior-check-session.os %~dp0/JSON/Main.json
