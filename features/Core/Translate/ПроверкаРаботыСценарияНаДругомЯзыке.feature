@@ -50,6 +50,6 @@
 		| 'Success' | 'Close TestClient'                                                     |
 		| 'Success' | 'And I close TestClient session'                                 |
 
-Сценарий: Закрытие слубеного сеанса TestEN
+Сценарий: Закрытие служебного сеанса TestEN
 	И я закрываю TestClient "TestEN"
 	
